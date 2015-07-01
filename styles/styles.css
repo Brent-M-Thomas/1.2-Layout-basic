@@ -1,11 +1,15 @@
-.city-skyline{
+#city-skyline{
     width:100%;
 }
-.left-side{
+#left-side{
     float: left;
     width:40%;
 }
-.right-side{
-    float: right;
+#right-side{
     width:60%;
+}
+#left-side img{
+    border-radius:50%;
+    zoom:30%;
+    border: 20px solid white;
 }
