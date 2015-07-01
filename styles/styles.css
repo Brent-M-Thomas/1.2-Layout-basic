@@ -1,3 +1,5 @@
+html{
+    box-sizing: border-box;}
 #city-skyline{
     width:100%;
 }
@@ -8,7 +10,10 @@
 #right-side{
     width:60%;
 }
-#left-side img{
+#TIY-Logo{
+    position:absolute;
+    left:20%;
+    top: 48%;
     border-radius:50%;
     zoom:30%;
     border: 20px solid white;
