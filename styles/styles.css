@@ -8,13 +8,31 @@ html{
     width:40%;
 }
 #right-side{
+    float: right;
     width:60%;
+    margin:auto;
 }
 #TIY-Logo{
-    position:absolute;
-    left:20%;
-    top: 48%;
+    position:relative;
+    left: 350px;
+    top: -210px;
     border-radius:50%;
     zoom:30%;
     border: 20px solid white;
+}
+h1 {
+    font-family: Arial;
+    text-align:center;
+}
+h4{
+    font-family:Arial;
+}
+#tiny-logo{
+    zoom:10%;
+}
+#stalker-bar{
+        position: fixed;
+        background-color: gray;
+        width: 200px;
+        height: 120px;
 }
