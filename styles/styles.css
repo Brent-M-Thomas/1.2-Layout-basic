@@ -1,5 +1,8 @@
 html{
     box-sizing: border-box;}
+    *, *:before, *:after {
+  box-sizing: inherit;
+}
 #city-skyline{
     width:100%;
 }
@@ -29,12 +32,20 @@ h4{
 }
 #tiny-logo{
     zoom:7%;
+    float:left;
 }
 #stalker-bar{
-        display: inline;
-        position: fixed;
-        background-color: gray;
+        text-align:center;
+        padding:0;
+        font-size: 12px;
+        font-family: helvetica;
+        float:right;
+        overflow: auto;
+        display: block;
+        position: fixed; right: 0; bottom: 0;
+        background-color: lightgray;
         border: 2px solid black;
-        width: 200px;
-        height: 120px;
+        width: 240px;
+        height: 80px;
+        margin:2px;
 }
