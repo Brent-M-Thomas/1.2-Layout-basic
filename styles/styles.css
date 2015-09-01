@@ -3,16 +3,25 @@ html{
     *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+    margin: 0;
+}
 #city-skyline{
     width:100%;
+    margin: 0;
+}
+.header-image {
+    width: 100%;
+    margin: 0;
 }
 #left-side{
     float: left;
-    width:40%;
+    width:25%;
+    margin: 1rem;
 }
 #right-side{
-    float: right;
-    width:60%;
+    float: left;
+    width:50%;
     margin:auto;
 }
 #TIY-Logo{
