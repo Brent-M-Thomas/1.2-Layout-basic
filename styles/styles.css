@@ -1,0 +1,60 @@
+html{
+    box-sizing: border-box;}
+    *, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+#city-skyline{
+    width:100%;
+    margin: 0;
+}
+.header-image {
+    width: 100%;
+    margin: 0;
+}
+#left-side{
+    float: left;
+    width:25%;
+    margin: 1rem;
+}
+#right-side{
+    float: left;
+    width:50%;
+    margin:auto;
+}
+#TIY-Logo{
+    position:relative;
+    left: 350px;
+    top: -210px;
+    border-radius:50%;
+    zoom:30%;
+    border: 20px solid white;
+}
+h1 {
+    font-family: Arial;
+    text-align:center;
+}
+h4{
+    font-family:Arial;
+}
+#tiny-logo{
+    zoom:7%;
+    float:left;
+}
+#stalker-bar{
+        text-align:center;
+        padding:0;
+        font-size: 12px;
+        font-family: helvetica;
+        float:right;
+        overflow: auto;
+        display: block;
+        position: fixed; right: 0; bottom: 0;
+        background-color: lightgray;
+        border: 2px solid black;
+        width: 240px;
+        height: 80px;
+        margin:2px;
+}
